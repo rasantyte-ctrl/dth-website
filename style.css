@@ -6,31 +6,71 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(270deg, #ff0080, #ff8c00, #40e0d0);
+  background: linear-gradient(90deg, #7185dd, #464a56, #6c5e6b);
   background-size: 600% 600%;
-  animation: gradientShift 10s ease infinite;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  color: white;
-  text-align: center;
+  animation: gradientShift 25s ease infinite;
+  font-family: "Lucida Sans";
+  color: rgb(222, 222, 222);
+  text-align: left;
   padding: 20px;
 }
 
-/* Funky Title */
+strong, b {
+    font-weight: 700;
+    color: #ffffff;
+    background-color: transparent;
+    border-radius: 4px;
+    text-shadow: #333;
+}
+
+
+.text-box {
+    max-width: 1200px;
+    margin: 30 auto;
+    padding: 30px;
+
+    background: rgba(111, 119, 181, 0.5);
+    border-radius: 16px;
+
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+
+    text-align: justify;
+    line-height: 1.6;
+    font-family: "Arial", sans-serif;
+}
+
+.text-box-two {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+
+    background: rgb(233, 233, 233, 0.75);
+    border-radius: 16px;
+
+    box-shadow: 0 4px 30px rgba(19, 210, 244, 0.1);
+
+    text-align: justify;
+    line-height: 1.6;
+    font-family: "Arial", sans-serif;
+}
+
 h1 {
-  font-size: 48px;
-  animation: bounce 2s infinite;
+  font-size: 36px;
+  color: #002fff;
   margin: 10px 0;
+  overflow-y: visible;
 }
 
 /* Paragraph Styling */
 p {
-  font-size: 18px;
+  font-size: 17px;
   opacity: 0;
   animation: fadeIn 3s forwards;
   animation-delay: 1s;
-  max-width: 600px;
+  max-width: 2000px;
   line-height: 26px;
   margin: 10px 0;
+  overflow-y:visible;
 }
 
 /* Button Styling */
@@ -73,3 +113,38 @@ button:hover {
   from { opacity: 0; }
   to { opacity: 1; }
 }
+
+
+
+
+
+
+
+/*/ This is just for the mini-menu/*/
+
+.page {
+    display: none;
+}
+
+.page.visible {
+    display: block;
+}
+
+.side-menu button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: left;
+    padding: 5px 0;
+    transition: 0.2s;
+}
+
+.side-menu button:hover {
+    transform: translateX(3px);
+    color: #b4c8ff;
+}
+
+
+
