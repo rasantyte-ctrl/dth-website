@@ -12,7 +12,7 @@
   <h1>🗺️🎓🗺️🎓🗺️ Rasa Antulytė's website 🗺️🎓🗺️🎓🗺️</h1>
   </div>
 
-<button id="playBtn">▶️ Play Rasa's instrumental music 🎶</button>
+<button id="playBtn">▶️ Play Rasa's composition: Raxantu - // Conjoin & enjoy // 🎶</button>
 <audio id="audioPlayer" src="Raxantu Conjoin & enjoy.mp3"></audio>
 
 
@@ -23,7 +23,9 @@
     <button data-target="page3">🗞️ NEWS </button>
     <button data-target="page4">❤️‍🩹❓ IMMUNITY TO CHANGE</button>
     <button data-target="page5">📝 SUMMARY OF FIELD ANALYSIS</button>
-    <button data-target="page6">🐵 NAME</button>
+    <button data-target="page6">🤔 APIs DESCRIPTION</button>
+    <button data-target="page7">🃏 APIs</button>
+    <button data-target="page8">🛜 EXTRA ONE</button>
 </div>
 
 
@@ -42,7 +44,7 @@
         socially and globally connected world. Rozbicki (2015) believes that those relations of different
         people are “ultimately a relation of difference”, and that those different cultural realities were
         never “universal” but, on the contrary, “conventional, generated” (1),- therefore, it is important
-        to study <b>difference, otherness</b> in this study field alongside <b>the changes</b> that cultures go through
+        to study <b>difference, otherness</b> in the study field alongside <b>the changes</b> that cultures go through
         during their existence.<br><br>
         As a researcher in the field, I have the responsibility to look at cultures
         with the perspective that they have been constantly developing and were never static - which is why
@@ -141,7 +143,9 @@
     </div>
 
     <div id="page5" class="page">
-        <p><strong>Conclusion</strong><br><br>
+        <img src="ryoji-iwata-IBaVuZsJJTo-unsplash.jpg" alt="Different people crossing the crosswalk" style="height: 30vh; width: auto;">
+        <br>
+      <p><strong>Conclusion</strong><br>
         To summarize, intercultural studies focus on relations of difference between <i><b>us</b></i> and <i><b>them</b></i>, taking into account
         both <i><b>our</b></i> and <i><b>their</b></i> histories and experienced changes, and even though humanities used to follow a more rigid mindset
         of putting different groups of people in very particular boxes (ex. Hofstedean approach), in the contemporary world
@@ -149,15 +153,56 @@
         as possible. The field that I am currently studying is, in my opinion, very academical, because we are trying to
         critically reflect and study otherness, but it has huge practical value - to understand those that seem different
         from oneself - in the corporate world or any big- or small-scale social reality that a person needs to face - from
-        individual interactions of people from different cultural groups to national countries to transnational organizations.
+        individual interactions of people from different cultural groups to national countries to transnational organizations.</p>
+        <p><strong>An important note:</strong><br>
+        The assignment was written according to the style guide of the English Department in Aarhus University.
+        It clearly states that the "use of the first person will be relatively infrequent", therefore allowing some usage of it (Aarhus University 11).
       </p>
     </div>
 
     <div id="page6" class="page">
-        <p><strong>Conclusion</strong><br><br>
-        Text
+        <p><strong>🤔 APIs DESCRIPTION</strong><br><br>
+        APIs are defined as “mechanisms that enable two software components <b>to communicate</b> with each other using a set of definitions
+        and protocols” (Amazon Web Services (AWS)). They can enhance the experience on any website by providing useful information
+        that is constantly updated, for instance, <b>weather reports, anecdotes or pictures of specific keywords</b>. At first, I decided
+        to include a <b>“Website Carbon API”</b>, which would calculate how much environmental impact does opening a certain website once
+        have: it includes data such as in which percentile the website is based on how clean it is (“cleanerThan” response),
+        whether the website is considered “green”, or how many “grams of CO2” were emitted to open the website (Website Carbon).
+        Unfortunately, the trials to make this API work on the website created for this assignment were unsuccessful: it was
+        possible to create the button, but there must have been lack of communication between those software components, mentioned
+        by AWS, for the API to work. I have decided not to keep trying because it was not certain that the API was still 100 %
+        functional or was easy enough to be used for a beginner. The second choice of an API was <b>“Giphy”</b>, which allows anyone
+        with a free account to use gifs in their websites. It proved to be possible to create a new API key based on provided
+        instructions to follow GIPHY Developer Dashboard page (GIPHY Developers). This key is used in the code to create a link
+        between the randomly generated gif files and the website created for the assignment. The results of the API can be seen
+        on the next menu item (APIs), with 4 separate gif containers that generate a random gif based on the keywords: <b>'politics', 'culture',
+        'intercultural', 'diplomacy'</b>.
+<br><br>
+        Using this particular API can be useful for interculturalists because the chosen keywords will inevitably portray memes
+        or other moving pictures that relate to them. Since the API has a huge data of gifs, it can be used as a quantitative
+        resource while analyzing interculturality, culture and related topics and actors / politicians / artists involved.
+
       </p>
     </div>
+
+
+    <div id="page7" class="page">
+        <p><strong>🃏 APIs</strong><br><br>
+
+        <div id="gif-container">
+          Loading random GIFs...</div>  
+
+    </div>
+
+
+
+
+    <div id="page7" class="page">
+        <p><strong>EXTRAAAAAAAAAAA</strong><br><br>
+
+
+    </div>
+
 
 
 </div>
@@ -187,6 +232,39 @@ document.querySelectorAll(".side-menu button").forEach(btn => {
     audio.play();
   });
 </script>
+
+
+
+
+
+<script>
+  const API_KEY = '7zHjkXzouVQzbfMwzSCYk7e73GglpOlf'; // Replace with your Giphy API key
+  const keywords = ['politics', 'culture', 'intercultural', 'diplomacy'];
+  const container = document.getElementById('gif-container');
+
+  // Clear the container first
+  container.innerHTML = '';
+
+  // Loop through keywords and fetch a random GIF for each
+  keywords.forEach(keyword => {
+    const url = `https://api.giphy.com/v1/gifs/random?api_key=${API_KEY}&tag=${encodeURIComponent(keyword)}&rating=PG-13`;
+
+    fetch(url)
+      .then(res => res.json())
+      .then(data => {
+        const gifUrl = data.data.images.fixed_height.url;
+        // Add each GIF to the container
+        const img = document.createElement('img');
+        img.src = gifUrl;
+        img.alt = keyword + ' GIF';
+        container.appendChild(img);
+      })
+      .catch(err => {
+        console.error('Error fetching GIF for', keyword, err);
+      });
+  });
+</script>
+
 
 
 
