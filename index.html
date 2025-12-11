@@ -55,25 +55,26 @@ fetch("Pages/INTRO.md")
 
 
     <div id="page2" class="page">
+    </div>      
       
-          <script>
+<script>
 
-          fetch("Pages/CONNECTION.md")
-            .then(r => r.text())
-            .then(t => {
-              content = t;
-              document.getElementById("page2").innerHTML = content;
-            });
-          </script>
-
-
-    </div>
+fetch("Pages/CONNECTION.md")
+  .then(r => r.text())
+  .then(t => {
+    content = t;
+    document.getElementById("page2").innerHTML = content;
+  });
+</script>
 
 
 
 
 
-    
+
+
+
+
     <div id="page3" class="page">
         <p><strong>New possible technological disruptions to the field’s practices</strong><br><br>
         As mentioned in the previous chapter, more and more information can be found online as people not only are,
