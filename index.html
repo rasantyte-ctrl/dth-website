@@ -23,7 +23,8 @@
     <button data-target="page5">📝 SUMMARY</button>
     <button data-target="page6">🤔 APIs DESCRIPTION</button>
     <button data-target="page7">🃏 APIs</button>
-    <button data-target="page8">🛜 EXTRA ONE</button>
+    <button data-target="page8">🧑🏻‍💻 GITHUB</button>
+    <button data-target="page9">📚 BIBLIOGRAPHY</button>
 </div>
 
 
@@ -185,10 +186,40 @@ fetch("Pages/APIS.md")
 
 
     <div id="page8" class="page">
-        <p><strong>EXTRAAAAAAAAAAA</strong><br><br>
-
+        <p><strong>🧑🏻‍💻 GitHub</strong><br><br>
 
     </div>
+
+    <script>
+
+fetch("Pages/GITHUB.md")
+  .then(r => r.text())
+  .then(t => {
+    content = t;
+    document.getElementById("page8").innerHTML = content;
+  });
+</script>
+
+
+
+
+
+    <div id="page9" class="page">
+        <p><strong>Bibliography</strong><br><br>
+
+    </div>
+
+    <script>
+
+fetch("Pages/BIBLIOGRAPHY.md")
+  .then(r => r.text())
+  .then(t => {
+    content = t;
+    document.getElementById("page9").innerHTML = content;
+  });
+</script>
+
+
 
 
 

@@ -1,0 +1,16 @@
+Aarhus University. (2020, September 1). “The Department of English Style Guide”, School of Communication and Culture, Aarhus University, pp. 1-13. Retrieved on December 10, 2025, from https://studerende.au.dk/fileadmin/studerende.au.dk/Arts/Eksamen/Department_of_English_SLK_-_Style_Guide__2020__SLK.pdf 
+Amazon Web Services (AWS). (n.d.). “What is an API (Application Programming Interface)?”, Amazon Web Services (AWS). Retrieved on December 10, 2025, from https://aws.amazon.com/what-is/api/ 
+Cambridge Dictionary. (n.d.). Multiculturalism. Retrieved November 11, 2025, from https://dictionary.cambridge.org/dictionary/english/multiculturalism 
+Chorn, C. (2015, December 3). We no longer go online, we live online. Webcentral. Retrieved on November 11, 2025, from https://webcentral.au/blog/we-no-longer-go-online-we-live-online
+Dietz, G. (2018). “Interculturality”, DOI: 10.1002/9781118924396.wbiea1629
+Euronews. (2025, August 5). “The cyber gulag: How Russia tracks, censors, and controls its citizens online". Euronews. https://www.euronews.com/next/2025/08/05/the-cyber-gulag-how-russia-tracks-censors-and-controls-its-citizens-online 
+GIPHY Developers. (n.d.). “GIPHY API”, GIPHY Developers. Retrieved on December 10, 2025 https://developers.giphy.com/docs/api 
+Github. (2024, July 29). “What is Version Control?”. Retrieved on December 10, 2025 from https://github.com/resources/articles/what-is-version-control 
+Media Defence. (n.d.). “Module 8: ‘False news’, misinformation and propaganda”. In: Modules on Litigating Freedom of Expression and Digital Rights in South and Southeast Asia. Retrieved on November 13, 2025, from https://www.mediadefence.org/ereader/publications/modules-on-litigating-freedom-of-expression-and-digital-rights-in-south-and-southeast-asia/module-8-false-news-misinformation-and-propaganda/misinformation-disinformation-and-mal-information/?tztc=1 
+Reporters Without Borders (RSF). (2025, September 30). Controlling information in the age of AI: How state propaganda and censorship are baked into Chinese chatbots. RSF. https://rsf.org/en/controlling-information-age-ai-how-state-propaganda-and-censorship-are-baked-chinese-chatbots 
+Tina Cloud. (2025). “Git Co-Authoring and GitHub Authoring - What is it and how do we use it?”, Tina Cloud. Retrieved on November 13, 2025, from https://tina.io/docs/tinacloud/git-co-authoring 
+Transparency Center, GitHub (a). (n.d.). “Transparency Center”, GitHub. Retrieved on December 10, 2025 from https://transparencycenter.github.com 
+Transparency Center, GitHub (b). (n.d.). “Government Takedowns”, GitHub. Retrieved on December 10, 2025 from https://transparencycenter.github.com/government/ 
+Vienna University Computer Center (ZID). (n.d.). Cloud storage – u:cloud. University of Vienna. Retrieved on November 13, 2025, from https://zid.univie.ac.at/en/ucloud/ 
+Website Carbon. (n.d.). “Website Carbon API”, Website Carbon. Retrieved on December 10, 2025, from https://api.websitecarbon.com 
+Wing, J. M. (2006). “Computational thinking”. In: Communications of the ACM, 49(3), 33-35. https://www.cs.cmu.edu/~15110-s13/Wing06-ct.pdf 
