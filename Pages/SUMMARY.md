@@ -1,5 +1,3 @@
-
-
 <img src="ryoji-iwata-IBaVuZsJJTo-unsplash.jpg" alt="Different people crossing the crosswalk" style="height: 30vh; width: auto;">
 <br>
 <p><strong>Conclusion</strong><br>
