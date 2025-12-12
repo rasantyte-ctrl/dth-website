@@ -13,4 +13,4 @@ Transparency Center, GitHub (a). (n.d.). “Transparency Center”, GitHub. Retr
 Transparency Center, GitHub (b). (n.d.). “Government Takedowns”, GitHub. Retrieved on December 10, 2025 from <https://transparencycenter.github.com/government/> 
 Vienna University Computer Center (ZID). (n.d.). Cloud storage – u:cloud. University of Vienna. Retrieved on November 13, 2025, from <https://zid.univie.ac.at/en/ucloud/> 
 Website Carbon. (n.d.). “Website Carbon API”, Website Carbon. Retrieved on December 10, 2025, from <https://api.websitecarbon.com> 
-Wing, J. M. (2006). “Computational thinking”. In: Communications of the ACM, 49(3), 33-35. <https://www.cs.cmu.edu/~15110-s13/Wing06-ct.pdf> 
+Wing, J. M. (2006). “Computational thinking”. In: Communications of the ACM, 49(3), 33-35. <https://www.cs.cmu.edu/~15110-s13/Wing06-ct.pdf>
