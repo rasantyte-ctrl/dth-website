@@ -17,5 +17,5 @@ on the next menu item (APIs), with 4 separate gif containers that generate a ran
 <br><br>
 Using this particular API can be useful for interculturalists because the chosen keywords will inevitably portray memes
 or other moving pictures that relate to them. Since the API has a huge data of gifs, it can be used as a quantitative
-resource while analyzing interculturality, culture and related topics and actors / politicians / artists involved.
+resource while analyzing interculturality, culture and related topics and actors / politicians / artists involved. Such open-source technologies allow an unrestricted search for data based on keywords, which can aid in the search of academic topics to research or the trials to find problems to be practically solved.
 </p>
